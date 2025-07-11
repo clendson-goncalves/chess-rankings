@@ -26,28 +26,28 @@ A modern, responsive web application that displays the top 50 classical chess pl
 ## Installation
 
 1. **Clone the repository**
-   \`\`\`bash
+   ```bash
    git clone https://github.com/clendson-goncalves/chess-rankings.git
    cd chess-rankings
-   \`\`\`
+   ```
 
 2. **Install dependencies**
-   \`\`\`bash
+  ```bash
    npm install
    # or
    yarn install
    # or
    pnpm install
-   \`\`\`
+   ```
 
 3. **Run the development server**
-   \`\`\`bash
+  ```bash
    npm run dev
    # or
    yarn dev
    # or
    pnpm dev
-   \`\`\`
+   ```
 
 4. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
