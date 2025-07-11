@@ -27,7 +27,7 @@ A modern, responsive web application that displays the top 50 classical chess pl
 
 1. **Clone the repository**
    \`\`\`bash
-   git clone https://github.com/yourusername/chess-rankings-app.git
+   git clone https://github.com/clendson-goncalves/chess-rankings.git
    cd chess-rankings
    \`\`\`
 
