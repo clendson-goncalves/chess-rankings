@@ -1,4 +1,4 @@
-# Chess Rankings Application by Clendson Goncalves
+# Chess Rankings by Clendson Goncalves
 
 A modern, responsive web application that displays the top 50 classical chess players from Lichess, featuring interactive rating history charts and CSV export functionality.
 
