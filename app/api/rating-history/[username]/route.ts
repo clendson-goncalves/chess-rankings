@@ -1,9 +1,9 @@
 import { NextResponse } from "next/server"
 import type { LichessRatingHistory, RatingHistory } from "@/lib/types"
 
-export async function GET(request: Request, { params }: { params: { username: string } }) {
+export async function GET(request: Request, { params }: { params: Promise<{ username: string }> }) {
   try {
-    const { username } = params
+    const { username } = await params
     const response = await fetch(`https://lichess.org/api/user/${username}/rating-history`)
 
     if (!response.ok) {

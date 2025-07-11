@@ -34,22 +34,23 @@ A modern, responsive web application that displays the top 50 classical chess pl
 2. **Install dependencies**
   ```bash
    npm install
-   # or
-   yarn install
-   # or
-   pnpm install
    ```
 
 3. **Run the development server**
   ```bash
    npm run dev
-   # or
-   yarn dev
-   # or
-   pnpm dev
    ```
 
-4. **Open your browser**
+4. **Build Application**
+  ```bash
+   npm run build
+   ```
+5. **Run Application**
+  ```bash
+   npm start
+   ```
+
+6. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
 
 ## API Endpoints
